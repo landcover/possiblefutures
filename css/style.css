@@ -169,9 +169,6 @@ h1 {
   line-height: 70px;
   font-family: "MaratTextWeb", serif;
   font-weight: normal;
-}
-
-.italic h1 {
   font-style: italic;
 }
 
