@@ -51,12 +51,12 @@ p, ul, h1, h2, h3 {
 
 a {
   position: relative;
-  color: #113388;
+  color: #AD7337;
   text-decoration: none;
 }
 
 a:hover {
-  color: #113388;
+  color: #AD7337;
 }
 
 a:before {
@@ -66,7 +66,7 @@ a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #113388;
+  background-color: #AD7337;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
