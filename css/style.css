@@ -80,6 +80,40 @@ a:hover:before {
   transform: scaleX(1);
 }
 
+
+/*.overlay {
+  background: rgba(0,0,15, 0.5);
+  height: 100%;
+}
+
+.navigation a {
+  color: #fff;
+}
+
+.navigation a:hover {
+  color: #fff;
+}
+
+.navigation a:before {
+  background-color: #fff;
+}*/
+
+
+.list {
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  float: right;
+  font-family: 'MaratSansWeb', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+}
+
+.list a {
+  margin-left: 20px;
+  float: right;
+}
+
 img {
   display: block;
   width: 100%;
@@ -87,7 +121,6 @@ img {
 
 .editorial {
   margin-top: 20px;
-  margin-bottom: -10px;
   text-align: left;
   font-size: 28px;
   line-height: 40px;
@@ -117,17 +150,30 @@ h2 {
   font-style: italic;
 }
 
+h3 {
+  margin-top: 20px;
+  text-align: left;
+  font-size: 23px;
+  line-height: 30px;
+  font-family: 'MaratSansWeb', sans-serif;
+  font-weight: normal;
+  color: #113388;
+  margin-bottom: -20px;
+}
+
 p {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 20px;
 }
+
+
 
 .first {
   margin-top: 60px;
 }
 
-.other {
-  margin-top: 40px;
+.color {
+  color: #113388;
 }
 
 .title {
@@ -143,10 +189,13 @@ p {
   margin-bottom: 80px;
 }
 
-footer {
+.foot {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: 'MaratTextWeb', serif;
-  font-size: 22px;
+  font-family: 'MaratSansWeb', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
   line-height: 30px;
 }
+
+
